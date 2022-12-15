@@ -1,15 +1,18 @@
 description: Production grade React applications that scale.
 name: matter-web-nextjs
-display-name: matter-web-nextjs
+display-name: Stack Web Nextjs
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
+category: Frontend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - React
 technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
-  - docker 
+  - Typescript
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: Criar aplicação Nextjs
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml
+
+  - title: Criar aplicação Nextra
+    content: docs/use-case.md
+    stackfile: stackfiles/nextra.yaml

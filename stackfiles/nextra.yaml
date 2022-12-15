@@ -1,0 +1,4 @@
+type: app
+description: Create Nextra template
+# template used to create the project
+template: matter-web-nextjs/web-nextjs-nextra-template

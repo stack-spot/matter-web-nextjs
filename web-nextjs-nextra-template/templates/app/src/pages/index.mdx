@@ -1,0 +1,17 @@
+---
+title: Introduction
+---
+
+import { useState } from 'react'
+ 
+export function Counter({ children }) {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(state => ++state)}>
+    {children}{count}
+  </button>
+}
+
+Example Page 
+
+<Counter>Click me: </Counter>
+

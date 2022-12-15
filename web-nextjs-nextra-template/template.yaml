@@ -1,0 +1,14 @@
+name: web-nextjs-nextra-template
+description: Nextra template
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  
+  - label: Add internationalization?
+    type: bool
+    name: add_i18n
+    default: false

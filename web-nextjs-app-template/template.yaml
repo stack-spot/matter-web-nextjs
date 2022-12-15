@@ -1,0 +1,9 @@
+name: web-nextjs-app-template
+description: Default
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
